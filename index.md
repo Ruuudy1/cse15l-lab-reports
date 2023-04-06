@@ -1,3 +1,3 @@
 System.out.println("Rudy");
 
-![catt](imageName.png)
+![catt.jpg](imageName.png)
