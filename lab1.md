@@ -17,4 +17,4 @@ These 2 letters are pretty much the only thing you will have to remember apart f
 The passwork will not appear on screen when you type it for safety reasons so make sure you get it right and do not make any typos!
 
 
-COngrats! you have sucessfully acessed your ieng6 account! Good luck on your journey through CSE15L!!
+Congrats! you have sucessfully acessed your ieng6 account! Good luck on your journey through CSE15L!!
