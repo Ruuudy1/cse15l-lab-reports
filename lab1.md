@@ -4,6 +4,8 @@ The very first step will be downloading VS Code onto your desired laptop. I pers
 Yet, downloading VS Code should not be too difficult! it takes just a few clicks to instal just make sure you are installing it from the correct website 
 and for your computer type: Mac, Windows, etc.! (you will soon learn about website URL's and how to detect phishing in the second week of class)
 
+
+![image](https://user-images.githubusercontent.com/130013367/231072906-e9f14241-f9a1-43ba-9e02-e02a96358cad.png)
 ![Image](lab1img.png)
 
 After this, you will also need to download git. Both Git and VS Code are essential to access your ieng6 account that you will use during your time in CSE15L. 
@@ -22,6 +24,7 @@ Now for the moment we have all been waiting for! All you have to type in now is 
 These 2 letters are pretty much the only thing you will have to remember apart from your passwork. Once you type this in you will get a prompt to type in your password,
 The passwork will not appear on screen when you type it for safety reasons so make sure you get it right and do not make any typos!
 
+![image](https://user-images.githubusercontent.com/130013367/231073048-4376f5c4-cf1f-4ac7-ab74-4756bebc28d2.png)
 ![Image](lab1img1.png)
 
 Congrats! you have sucessfully acessed your ieng6 account! Good luck on your journey through CSE15L!!
