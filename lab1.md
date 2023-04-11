@@ -33,4 +33,6 @@ Congrats! you have sucessfully acessed your ieng6 account! Good luck on your jou
 
 
 
-p.s: Hello, I have been having a lot of issues uploading files onto my main branch. Github does not let me upload any files, I have tried saving the file type as jpg, png, even gif and uploading it and it still hit me with a "cannot find 
+p.s: Hello, I have been having a lot of issues uploading files onto my main branch. Github does not let me upload any files, I have tried saving the file type as jpg, png, even gif and uploading it and it still gave me the error "Commit failed Committing the files to the repository failed." I have no clue why this is happening, I even tried uploading the exact same pictures I previously used for my website during the lab that previosuly uploaded just fine and they gave me the same error. I am not sure if I am doing something wrong or if GitHub is glitching. I will provide a screenshoot in my submission that shows the pictures showing when I view my code from GitHub.
+
+
