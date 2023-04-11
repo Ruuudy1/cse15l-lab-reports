@@ -28,3 +28,9 @@ The passwork will not appear on screen when you type it for safety reasons so ma
 ![Image](lab1img1.png)
 
 Congrats! you have sucessfully acessed your ieng6 account! Good luck on your journey through CSE15L!!
+
+
+
+
+
+p.s: Hello, I have been having a lot of issues uploading files onto my main branch. Github does not let me upload any files, I have tried saving the file type as jpg, png, even gif and uploading it and it still hit me with a "cannot find 
