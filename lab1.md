@@ -6,7 +6,7 @@ and for your computer type: Mac, Windows, etc.! (you will soon learn about websi
 
 
 ![image](https://user-images.githubusercontent.com/130013367/231072906-e9f14241-f9a1-43ba-9e02-e02a96358cad.png)
-![Image](lab1img.png)
+![image](lab1img.png)
 
 After this, you will also need to download git. Both Git and VS Code are essential to access your ieng6 account that you will use during your time in CSE15L. 
 This is the last thing you will need to download and it is also very easy to do, just select your either the Windows or Mac version and you are set!
@@ -15,7 +15,7 @@ Once you have both of these perfect! You have all you need to acess your ieng6 a
 and once you relaunch VS Code click "Terminal" on the top left corner and "New Teminal." Now click on the arrow next to the "+" icon on the terminal panel.
 Since we installed git you will notice a new terminal type "Git Bash" click it and you should see a color coded terminal to type on.
 
-![Image](lab1img2.png)
+![image](lab1img2.png)
 ![image](https://user-images.githubusercontent.com/130013367/231072567-5b27e5a2-acef-46f4-9c2a-64cbdf6c856e.png)
 
 
@@ -25,7 +25,7 @@ These 2 letters are pretty much the only thing you will have to remember apart f
 The passwork will not appear on screen when you type it for safety reasons so make sure you get it right and do not make any typos!
 
 ![image](https://user-images.githubusercontent.com/130013367/231073048-4376f5c4-cf1f-4ac7-ab74-4756bebc28d2.png)
-![Image](lab1img1.png)
+![image](lab1img1.png)
 
 Congrats! you have sucessfully acessed your ieng6 account! Good luck on your journey through CSE15L!!
 
