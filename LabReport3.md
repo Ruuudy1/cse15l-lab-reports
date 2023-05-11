@@ -14,12 +14,12 @@ drawback of this simple definition of 'healthy' is that
 report results using only the simpler definition.
 ```
           
-<h3>as we can see, this outputed the 2 lines that contain the characters "definition" which in this case it is seen in 2 times in this .txt file.
-but there is other functionalities to the grep command.<h3>
+as we can see, this outputed the 2 lines that contain the characters "definition" which in this case it is seen in 2 times in this .txt file.
+but there is other functionalities to the grep command.
 
 ### -c command
 
-<h3>For example if we arent interested on the whole line were the characters are included but rather just to count how many times the word appears we can add "-c"
+For example if we arent interested on the whole line were the characters are included but rather just to count how many times the word appears we can add "-c"
 right after grep.
 
 When using this on the previous example we get:
