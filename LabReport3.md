@@ -32,7 +32,7 @@ Example 1 (1/2):
           2 
           
 this is as we expected since we saw previously that "definition" was only in this specific file twice which is why in this case we got the number 2. 
-This command will come in handy when we have a very long output and rather of us counting the iines ourselves we only get the number of lines.<h3>
+This command will come in handy when we have a very long output and rather of us counting the iines ourselves we only get the number of lines.
 
 Example 1 (2/2):
 Another useful way of using grep is by pairing it with the * in the filename/filetype to output exactly how mnay times that string appears in each file inside that folder:
@@ -56,7 +56,7 @@ with "-c":
           government/Alcohol_Problems/Session4-PDF.txt:0 
           
           
--h command
+### -h command
 
 at first I did not think this command did much as when I tried:
 
@@ -72,8 +72,8 @@ at first I did not think this command did much as when I tried:
 
 
           
-<h3> both commands seemed to produce the same output. Yet this command is really usefull paired with the "*" in the filename or filetype, 
-As now we can look through ALL the files type .txt in biomed or any other folder without getting the file it is from in our output. <h3>
+both commands seemed to produce the same output. Yet this command is really usefull paired with the "*" in the filename or filetype, 
+As now we can look through ALL the files type .txt in biomed or any other folder without getting the file it is from in our output.
 
 
 Example 2 (1/2):
@@ -151,9 +151,9 @@ Example 2 (2/2):
           
 ### -i command
           
-<h3>Another useful command to truly get all outputs of a string of characters is "-i". This command does not take Capitalization (lowercase/undercase) into consideration 
+Another useful command to truly get all outputs of a string of characters is "-i". This command does not take Capitalization (lowercase/undercase) into consideration 
 when searching for a string. This is really usefull to truly find all words that match that character as many times some words inside the .txt file could be Capitalized (Hello) 
-or in all Caps (HELLO) and normal grep will not find there if you only give write grep "hello" ... <h3>
+or in all Caps (HELLO) and normal grep will not find there if you only give write grep "hello" ...
           
 Example 3 (1/2):
           
@@ -206,27 +206,25 @@ with "-i":
           
 
           
-<h2>-C(#) command<h2>
+### -C(#) command
 
-<h3>Finally, in my opinion the most useful command to use with grep is -C (capital C.) This command is really useful with grep
+Finally, in my opinion the most useful command to use with grep is -C (capital C.) This command is really useful with grep
 as when you see the lines before and after a string of characters of you choice giving you more context of what is going on when that word is mentioned. 
 This is extremely essential as it lets you skim the text where you found that word quickly and efficiently as it separates the times the characters were found with "--"
 and also very versatile as you get to pick how many lines foward and back from the string of characters you want to output.
-          
-<h3>
+
 
 Example 4 (1/2):
 
-<h4>Without -C(#):
+Without -C(#):
           
           $ grep "definition" biomed/1468-6708-3-1.txt
           
           drawback of this simple definition of 'healthy' is that
           report results using only the simpler definition.
-          
-<h4>
 
-<h4>With -C(#):
+
+With -C(#):
           
           $ grep -C2 "definition" biomed/1468-6708-3-1.txt
           
@@ -235,31 +233,30 @@ Example 4 (1/2):
           drawback of this simple definition of 'healthy' is that
           it does not distinguish between fair or poor health and
           death, since all are considered 'not healthy'. We also
---
+          --
           value to each level of EVGFP [ 19 ] . Preliminary results
           were similar for the two approaches, however, and we
           report results using only the simpler definition.
           The calculations had to be modified to include the 438
           persons in the second African American cohort, who have 
           
-<h4>
 
 Example 4 (2/2):
           
-<h4>Without -C(#):
+Without -C(#):
           
           $ grep "QALY" biomed/1468-6708-3-1.txt
           
           QALY Quality-adjusted life years  
           
-With -C(#):          
+With -C(#):  
+
           $ grep -C1 "QALY" biomed/1468-6708-3-1.txt
           
           poor?
           QALY Quality-adjusted life years
           YHL Years of healthy life
           
-<h4>
 
 This command is a mix of -A (output lines after the line were the string of characters was found) and 
--B (output lines beforethe line were the string of characters was found) yet it provides the best of both commands. <h3>
+-B (output lines beforethe line were the string of characters was found) yet it provides the best of both commands.
