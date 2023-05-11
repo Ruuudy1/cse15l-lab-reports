@@ -7,7 +7,7 @@ we can use the following command on any file within it: <h3>
 
 <h4>Example:
           
-$ grep "definition" biomed/1468-6708-3-1.txt
+          $ grep "definition" biomed/1468-6708-3-1.txt
           
           drawback of this simple definition of 'healthy' is that
           report results using only the simpler definition.
@@ -24,9 +24,10 @@ When using this on the previous example we get:
 
 <h4>     
 Example 1 (1/2):
-$ grep -c "definition" biomed/1468-6708-3-1.txt
           
-2 
+          $ grep -c "definition" biomed/1468-6708-3-1.txt
+          
+          2 
 <h4>
           
 this is as we expected since we saw previously that "definition" was only in this specific file twice which is why in this case we got the number 2. 
@@ -37,7 +38,7 @@ Another useful way of using grep is by pairing it with the * in the filename/fil
 
 without "-c":
           
-$ grep "risks" government/Alcohol_Problems/*.txt
+          $ grep "risks" government/Alcohol_Problems/*.txt
           
           government/Alcohol_Problems/Session3-PDF.txt:range from minimal to very sizeable reduction in risks that have
           government/Alcohol_Problems/Session3-PDF.txt:settings to reduce drinking and alcohol related risks. The first
@@ -46,7 +47,7 @@ $ grep "risks" government/Alcohol_Problems/*.txt
 
 with "-c":
           
-$ grep -c "risks" government/Alcohol_Problems/*.txt
+          $ grep -c "risks" government/Alcohol_Problems/*.txt
           
           government/Alcohol_Problems/DraftRecom-PDF.txt:0
           government/Alcohol_Problems/Session2-PDF.txt:0
@@ -60,12 +61,12 @@ $ grep -c "risks" government/Alcohol_Problems/*.txt
 
 <h3>at first I did not think this command did much as when I tried:<h3
 
-<h4>$ grep -h "definition" biomed/1468-6708-3-1.txt
+          <h4>$ grep -h "definition" biomed/1468-6708-3-1.txt
           
           drawback of this simple definition of 'healthy' is that
           report results using only the simpler definition.
 
-$ grep "definition" biomed/1468-6708-3-1.txt
+          $ grep "definition" biomed/1468-6708-3-1.txt
           
           drawback of this simple definition of 'healthy' is that
           report results using only the simpler definition.
@@ -81,7 +82,7 @@ Example 2 (1/2):
          
 <h4> without "-h" command:
           
-$ grep "definition" government/About_LSC/*.txt
+          $ grep "definition" government/About_LSC/*.txt
           
           government/About_LSC/commission_report.txt:Furthermore, H-2A workers by definition are physically present in
           government/About_LSC/commission_report.txt:Furthermore, H-2A workers by definition are physically present in
@@ -106,7 +107,7 @@ $ grep "definition" government/About_LSC/*.txt
 
 <h4> with "-h" command:
           
-$ grep -h "definition" government/About_LSC/*.txt
+          $ grep -h "definition" government/About_LSC/*.txt
           
           Furthermore, H-2A workers by definition are physically present in
           Furthermore, H-2A workers by definition are physically present in
@@ -137,7 +138,7 @@ Example 2 (2/2):
           
 without "-h" command:   
           
-$ grep "phosphocellulos" biomed/*.txt
+          $ grep "phosphocellulos" biomed/*.txt
           
           biomed/1471-2091-3-18.txt:          enzyme was purified using the phosphocellulose and
           biomed/bcr631.txt:          addition of a final phosphocellulose chromatography step
@@ -145,7 +146,7 @@ $ grep "phosphocellulos" biomed/*.txt
           
 with "-h" command:    
           
-$ grep -h "phosphocellulos" biomed/*.txt
+          $ grep -h "phosphocellulos" biomed/*.txt
 
           enzyme was purified using the phosphocellulose and
           addition of a final phosphocellulose chromatography step
@@ -163,7 +164,7 @@ or in all Caps (HELLO) and normal grep will not find there if you only give writ
           
 without "-i":  
           
-$ grep "america" biomed/1472-6882-1-10.txt
+          $ grep "america" biomed/1472-6882-1-10.txt
           
           Mazama americana trinitatis ), lappe
           Solanum americanum leaf decoction
@@ -171,7 +172,7 @@ $ grep "america" biomed/1472-6882-1-10.txt
           
 with "-i": 
           
-$ grep -i "america" biomed/1472-6882-1-10.txt
+          $ grep -i "america" biomed/1472-6882-1-10.txt
           
           Mazama americana trinitatis ), lappe
           use are very similar to those of the South American
@@ -200,11 +201,11 @@ $ grep -i "america" biomed/1472-6882-1-10.txt
           
 without "-i": 
           
-$ grep "xiphidium" biomed/1472-6882-1-10.txt
+          $ grep "xiphidium" biomed/1472-6882-1-10.txt
 
 with "-i": 
           
-$ grep -i "xIpHidIuM" biomed/1472-6882-1-10.txt
+          $ grep -i "xIpHidIuM" biomed/1472-6882-1-10.txt
           
           Xiphidium caeruleum leaves were
           Xiphidium caeruleum ground stem
@@ -226,7 +227,7 @@ Example 4 (1/2):
 
 <h4>Without -C(#):
           
-$ grep "definition" biomed/1468-6708-3-1.txt
+          $ grep "definition" biomed/1468-6708-3-1.txt
           
           drawback of this simple definition of 'healthy' is that
           report results using only the simpler definition.
@@ -235,7 +236,7 @@ $ grep "definition" biomed/1468-6708-3-1.txt
 
 <h4>With -C(#):
           
-$ grep -C2 "definition" biomed/1468-6708-3-1.txt
+          $ grep -C2 "definition" biomed/1468-6708-3-1.txt
           
           throughout). Since people reported their health every 6
           months, YHL has a reasonably continuous distribution. A
@@ -255,12 +256,12 @@ Example 4 (2/2):
           
 <h4>Without -C(#):
           
-$ grep "QALY" biomed/1468-6708-3-1.txt
+          $ grep "QALY" biomed/1468-6708-3-1.txt
           
           QALY Quality-adjusted life years  
           
 With -C(#):          
-$ grep -C1 "QALY" biomed/1468-6708-3-1.txt
+          $ grep -C1 "QALY" biomed/1468-6708-3-1.txt
           
           poor?
           QALY Quality-adjusted life years
