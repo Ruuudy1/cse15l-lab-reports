@@ -1,11 +1,11 @@
-<h1>Grep Commands!<h1>
-<h2> (found grep commands information on https://www.geeksforgeeks.org/grep-command-in-unixlinux/)<h2>
+# Grep Commands!
+## (found grep commands information on https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
-<h3> The grep command is one of the most useful commands in bash. What the grep command does is find 
+The grep command is one of the most useful commands in bash. What the grep command does is find 
 all the times the character of your choice is found in a .txt file. For example, in the ./technical directory used during last week's skill demo, 
-we can use the following command on any file within it: <h3>
+we can use the following command on any file within it:
 
-<h4>Example:
+Example:
  
 ```
 $ grep "definition" biomed/1468-6708-3-1.txt
@@ -17,25 +17,24 @@ report results using only the simpler definition.
 <h3>as we can see, this outputed the 2 lines that contain the characters "definition" which in this case it is seen in 2 times in this .txt file.
 but there is other functionalities to the grep command.<h3>
 
-<h2>-c command<h2>
+### -c command
 
 <h3>For example if we arent interested on the whole line were the characters are included but rather just to count how many times the word appears we can add "-c"
 right after grep.
 
 When using this on the previous example we get:
 
-<h4>     
+   
 Example 1 (1/2):
           
           $ grep -c "definition" biomed/1468-6708-3-1.txt
           
           2 
-<h4>
           
 this is as we expected since we saw previously that "definition" was only in this specific file twice which is why in this case we got the number 2. 
 This command will come in handy when we have a very long output and rather of us counting the iines ourselves we only get the number of lines.<h3>
 
-<h4>Example 1 (2/2):
+Example 1 (2/2):
 Another useful way of using grep is by pairing it with the * in the filename/filetype to output exactly how mnay times that string appears in each file inside that folder:
 
 without "-c":
@@ -56,14 +55,12 @@ with "-c":
           government/Alcohol_Problems/Session3-PDF.txt:3
           government/Alcohol_Problems/Session4-PDF.txt:0 
           
-<h4>
           
-          
-<h2>-h command<h2>
+-h command
 
-<h3>at first I did not think this command did much as when I tried:<h3
+at first I did not think this command did much as when I tried:
 
-          <h4>$ grep -h "definition" biomed/1468-6708-3-1.txt
+          $ grep -h "definition" biomed/1468-6708-3-1.txt
           
           drawback of this simple definition of 'healthy' is that
           report results using only the simpler definition.
@@ -73,7 +70,7 @@ with "-c":
           drawback of this simple definition of 'healthy' is that
           report results using only the simpler definition.
 
-<h4>
+
           
 <h3> both commands seemed to produce the same output. Yet this command is really usefull paired with the "*" in the filename or filetype, 
 As now we can look through ALL the files type .txt in biomed or any other folder without getting the file it is from in our output. <h3>
@@ -82,7 +79,7 @@ As now we can look through ALL the files type .txt in biomed or any other folder
 Example 2 (1/2):
 (for the sake of fitting the whole output in one page I will use a different folder within ./terminal) 
          
-<h4> without "-h" command:
+without "-h" command:
           
           $ grep "definition" government/About_LSC/*.txt
           
@@ -105,9 +102,8 @@ Example 2 (1/2):
           government/About_LSC/Special_report_to_congress.txt:very important activities that do not fall within the definition of
           government/About_LSC/Special_report_to_congress.txt:definition of a case.
           
-<h4>
 
-<h4> with "-h" command:
+ ### with "-h" command:
           
           $ grep -h "definition" government/About_LSC/*.txt
           
@@ -129,16 +125,14 @@ Example 2 (1/2):
           simple cost-per-case analysis, without further definition, would
           very important activities that do not fall within the definition of
           definition of a case. 
-          
-<h4>
 
 
-<h3> This is very useful when we want to quickly find/copy-paste over a line(s) a character is found at without having to take the time
-to erase the path of every single one at a time. It also makes it slighty easier to read. <h3>
+This is very useful when we want to quickly find/copy-paste over a line(s) a character is found at without having to take the time
+to erase the path of every single one at a time. It also makes it slighty easier to read.
           
 Example 2 (2/2):
           
-without "-h" command:   
+### without "-h" command:   
           
           $ grep "phosphocellulos" biomed/*.txt
           
@@ -146,7 +140,7 @@ without "-h" command:
           biomed/bcr631.txt:          addition of a final phosphocellulose chromatography step
           biomed/bcr631.txt:        saline; PC-tubulin = MAP-free phosphocellulose-purified
           
-with "-h" command:    
+### with "-h" command:    
           
           $ grep -h "phosphocellulos" biomed/*.txt
 
@@ -154,17 +148,16 @@ with "-h" command:
           addition of a final phosphocellulose chromatography step
           saline; PC-tubulin = MAP-free phosphocellulose-purified
           
-<h3>
           
-<h2>-i command<h2>
+### -i command
           
 <h3>Another useful command to truly get all outputs of a string of characters is "-i". This command does not take Capitalization (lowercase/undercase) into consideration 
 when searching for a string. This is really usefull to truly find all words that match that character as many times some words inside the .txt file could be Capitalized (Hello) 
 or in all Caps (HELLO) and normal grep will not find there if you only give write grep "hello" ... <h3>
           
-<h4>Example 3 (1/2):
+Example 3 (1/2):
           
-without "-i":  
+### without "-i":  
           
           $ grep "america" biomed/1472-6882-1-10.txt
           
@@ -172,7 +165,7 @@ without "-i":
           Solanum americanum leaf decoction
           Solanum americanum leaf extracts
           
-with "-i": 
+### with "-i": 
           
           $ grep -i "america" biomed/1472-6882-1-10.txt
           
@@ -194,12 +187,10 @@ with "-i":
           noted in the meticulous data compiled on Middle America [
           Solanum americanum leaf decoction
           Solanum americanum leaf extracts
-
-<h4>
           
-<h3> As we can see far more outputs appeared since in a lo of cases throughout this file "america" is capitalized. <h3>  
+### As we can see far more outputs appeared since in a lo of cases throughout this file "america" is capitalized.  
           
-<h4>Example 3 (2/2):
+### Example 3 (2/2):
           
 without "-i": 
           
@@ -213,7 +204,6 @@ with "-i":
           Xiphidium caeruleum ground stem
           Xiphidium caeruleum [ 107 129 ]
           
-<h4>
 
           
 <h2>-C(#) command<h2>
