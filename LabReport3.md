@@ -6,11 +6,13 @@ all the times the character of your choice is found in a .txt file. For example,
 we can use the following command on any file within it: <h3>
 
 <h4>Example:
-          
-          $ grep "definition" biomed/1468-6708-3-1.txt
-          
-          drawback of this simple definition of 'healthy' is that
-          report results using only the simpler definition.
+ 
+```
+$ grep "definition" biomed/1468-6708-3-1.txt
+
+drawback of this simple definition of 'healthy' is that
+report results using only the simpler definition.
+```
           
 <h3>as we can see, this outputed the 2 lines that contain the characters "definition" which in this case it is seen in 2 times in this .txt file.
 but there is other functionalities to the grep command.<h3>
