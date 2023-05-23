@@ -39,7 +39,8 @@ Keys typed:
  cd <Space> lab7
  ls <Enter>
  javac <Space> -cp <Space> .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar <Space> *.java <Enter>
- java <Space> -cp <Space> .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar <Space> org.junit.runner.JUnitCore <Space> ListExamplesTests <Enter>
+ java <Space> -cp <Space> .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar <Space> org.junit.runner.JUnitCore 
+ <Space> ListExamplesTests <Enter>
 ```
 
 Example:
@@ -73,7 +74,8 @@ Keys typed:
 ```
 <:> wq <Enter>
 javac <Space> -cp <Space> .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar <Space> *.java <Enter>
-java <Space> -cp <Space> .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar <Space> org.junit.runner.JUnitCore <Space> ListExamplesTests <Enter>
+java <Space> -cp <Space> .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar <Space> org.junit.runner.JUnitCore 
+<Space> ListExamplesTests <Enter>
 ```
 
 
@@ -89,14 +91,17 @@ Commit and push changes to Github (Step 9):
 Keys typed: 
 
 ```
-
+git add "ListExamples.java"
+git commit -m "Fixed variable name"
+git push origin main
 ```
 
 Example:
 
-![image](https://github.com/Ruuudy1/cse15l-lab-reports/assets/130013367/773ab1fb-4b20-4fbe-b28b-17ad65044202)
+![image](https://github.com/Ruuudy1/cse15l-lab-reports/assets/130013367/214b0e76-30a8-4ea7-bfeb-11b4f0c9798f)
 
-For this step,
+
+For this step, I added the fixed file to git and pushed the chnages onto github with a message to indicate the updated code. 
 
 
 
