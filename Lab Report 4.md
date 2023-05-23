@@ -86,7 +86,17 @@ For this step, I simply re-demonstrated step 6 by reruning the code and seeing a
 
 Commit and push changes to Github (Step 9):
 
+Keys typed: 
 
+```
+
+```
+
+Example:
+
+![image](https://github.com/Ruuudy1/cse15l-lab-reports/assets/130013367/773ab1fb-4b20-4fbe-b28b-17ad65044202)
+
+For this step,
 
 
 
