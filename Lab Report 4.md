@@ -35,7 +35,9 @@ Run and demonstrate tests failing (Step 6):
 Keys typed: 
 
 ```
- ls 
+ ls <Enter>
+ cd <Space> lab7
+ ls <Enter>
  javac <Space> -cp <Space> .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar <Space> *.java <Enter>
  java <Space> -cp <Space> .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar <Space> org.junit.runner.JUnitCore <Space> ListExamplesTests <Enter>
 ```
@@ -48,6 +50,21 @@ Example:
 For this step, after cloning the repository I used ls to see what folders there are available, then I change my directory (cd) to Lab7 since this is were the listExamples code as well as the tester file. I ls to check the name of these files exactly and then compiled and ran the code based on the way we do it on a Mac (bash uses the mac version instead of the windows version to get this desired output)
 
 Fix the failing test in ListExamples.java (Step 7):
+
+Keys typed: 
+
+```
+vim <Space> ListExamples.java <Enter>
+</> index1 <Enter> <n> <n> <n> <n> <n> <n> <n> <n> <n> <l> <l> <l> <l> <l> <l> <a> <Backspace> 2 <Esc> 
+```
+
+Example:
+
+![image](https://github.com/Ruuudy1/cse15l-lab-reports/assets/130013367/2b2bd98e-e07c-46c4-84ba-738923aec52b)
+
+
+For this step, 
+
 
 Run and demonstrate tests now succeding (Step 8):
 
