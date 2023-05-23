@@ -63,9 +63,28 @@ Example:
 ![image](https://github.com/Ruuudy1/cse15l-lab-reports/assets/130013367/2b2bd98e-e07c-46c4-84ba-738923aec52b)
 
 
-For this step, 
+For this step, I fixed the error in ListExamples.java that was causing the code not to compile via Vim. I first opened the file by typing vim followed by the file name. And then once the file loaded, I used the search command we learned on Monday's Week 7 leture to get to the variable I had to alter. I used the slash search and then n to move to every instance that the variable appears. then I simply backspaced the 1 and added a 2 in insert mode (a).
 
 
 Run and demonstrate tests now succeding (Step 8):
 
+Keys typed: 
+
+```
+<:> wq <Enter>
+javac <Space> -cp <Space> .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar <Space> *.java <Enter>
+java <Space> -cp <Space> .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar <Space> org.junit.runner.JUnitCore <Space> ListExamplesTests <Enter>
+```
+
+
+Example:
+
+![image](https://github.com/Ruuudy1/cse15l-lab-reports/assets/130013367/773ab1fb-4b20-4fbe-b28b-17ad65044202)
+
+For this step, I simply re-demonstrated step 6 by reruning the code and seeing all the tests pass this time around after exiting vim.
+
+
 Commit and push changes to Github (Step 9):
+
+
+
