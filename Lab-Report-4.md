@@ -1,6 +1,6 @@
-Vim Lab Report!
+# Vim Lab Report!
 
-Log onto your ieng6 account (Step 4):
+## Log onto your ieng6 account (Step 4):
 
 Keys typed: 
  
@@ -15,7 +15,7 @@ Example:
 For this step, I opened a git bash terminal and logged into my personal ieng6 account we been using for this course
 
 
-Git clone repository from lab onto ieng6 account (Step 5):
+## Git clone repository from lab onto ieng6 account (Step 5):
 
 Keys typed: 
 
@@ -30,7 +30,7 @@ Example:
 For this step, once I am inside my ieng6 account, I clone the repository given in step 4 of this week's lab
 
 
-Run and demonstrate tests failing (Step 6):
+## Run and demonstrate tests failing (Step 6):
 
 Keys typed: 
 
@@ -50,7 +50,7 @@ Example:
 
 For this step, after cloning the repository I used ls to see what folders there are available, then I change my directory (cd) to Lab7 since this is were the listExamples code as well as the tester file. I ls to check the name of these files exactly and then compiled and ran the code based on the way we do it on a Mac (bash uses the mac version instead of the windows version to get this desired output)
 
-Fix the failing test in ListExamples.java (Step 7):
+## Fix the failing test in ListExamples.java (Step 7):
 
 Keys typed: 
 
@@ -67,7 +67,7 @@ Example:
 For this step, I fixed the error in ListExamples.java that was causing the code not to compile via Vim. I first opened the file by typing vim followed by the file name. And then once the file loaded, I used the search command we learned on Monday's Week 7 leture to get to the variable I had to alter. I used the slash search and then n to move to every instance that the variable appears. then I simply backspaced the 1 and added a 2 in insert mode (a).
 
 
-Run and demonstrate tests now succeding (Step 8):
+## Run and demonstrate tests now succeding (Step 8):
 
 Keys typed: 
 
@@ -86,7 +86,7 @@ Example:
 For this step, I simply re-demonstrated step 6 by reruning the code and seeing all the tests pass this time around after exiting vim.
 
 
-Commit and push changes to Github (Step 9):
+## Commit and push changes to Github (Step 9):
 
 Keys typed: 
 
