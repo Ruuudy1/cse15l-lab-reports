@@ -58,7 +58,7 @@ with "-c":
           
 ### -h command
 
-at first I did not think this command did much as when I tried:
+At first, I did not think this command did much as when I tried:
 
           $ grep -h "definition" biomed/1468-6708-3-1.txt
           
@@ -72,8 +72,7 @@ at first I did not think this command did much as when I tried:
 
 
           
-both commands seemed to produce the same output. Yet this command is really usefull paired with the "*" in the filename or filetype, 
-As now we can look through ALL the files type .txt in biomed or any other folder without getting the file it is from in our output.
+both grep with "-h" and the normal grep command seemed to produce the same output. Yet this command is really usefull paired with the "*" in the filename or filetype, As now we can look through ALL the files type .txt in biomed or any other folder without getting the file it is from in our output.
 
 
 Example 2 (1/2):
