@@ -19,8 +19,7 @@ command-line arguments, working directory, even the last few commands you ran. D
 as you can.
 
 A: Here are the my java file, my sh file as well as the command I ran to run the test.sh file:
-
-![image](https://github.com/Ruuudy1/cse15l-lab-reports/assets/130013367/b863f0fe-e5c8-4491-9969-5b6b9c2e34c5)
+![image](https://github.com/Ruuudy1/cse15l-lab-reports/assets/130013367/26502837-dcf2-40f1-9752-a45cf259a45b)
 ![image](https://github.com/Ruuudy1/cse15l-lab-reports/assets/130013367/3b46b018-0b11-469b-bc01-0ca2cb75a6e2)
 ![image](https://github.com/Ruuudy1/cse15l-lab-reports/assets/130013367/205c0c13-aa27-420b-9112-e87b1db34155)
 
@@ -31,11 +30,17 @@ Hello there TA Rudy Here,
 
 Looking at your Test.java file, it seems that your problem resides in your divide method. You will need to change the variable result from an int to a double. Also you will have to typecast the division of x / y into a double. Sicne you updated the content of result into a double you must chnage the method header to support returning a double rather than an integer. 
 
-Here is the updated code:
+Also, you would want to edit your .sh file to put the actual output as well as the expected output onto a variable to make it simpler to make more tests in the future. This is also be causing an error since now the return statement should be 0.0 (a double) rather than 0 (int)
 
-![image](https://github.com/Ruuudy1/cse15l-lab-reports/assets/130013367/019a208e-437c-40bc-b9d8-644774d8c72f)
+Before:
 
-Also, you might want to edit your .sh file to put the actual output as well as the expected output onto a variable to make it simpler to make more tests in the future. This is also be causing an error since now the return statement should be 0.0 (a double) rather than 0 (int):
+
+![image](https://github.com/Ruuudy1/cse15l-lab-reports/assets/130013367/1e06aa20-cb11-4807-917c-a5fa084c370e)
+![image](https://github.com/Ruuudy1/cse15l-lab-reports/assets/130013367/3b46b018-0b11-469b-bc01-0ca2cb75a6e2)
+![image](https://github.com/Ruuudy1/cse15l-lab-reports/assets/130013367/205c0c13-aa27-420b-9112-e87b1db34155)
+
+
+After: 
 
 ![image](https://github.com/Ruuudy1/cse15l-lab-reports/assets/130013367/76458eba-f6f6-4f9e-b732-c2e813654a9b)
 
