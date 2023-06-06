@@ -35,7 +35,7 @@ Here is the updated code:
 
 ![image](https://github.com/Ruuudy1/cse15l-lab-reports/assets/130013367/019a208e-437c-40bc-b9d8-644774d8c72f)
 
-Also, you might want to edit your .sh file to put the actual output as well as the expected output onto a variable to make it simpler to make more tests in the future. This is also be causing an error:
+Also, you might want to edit your .sh file to put the actual output as well as the expected output onto a variable to make it simpler to make more tests in the future. This is also be causing an error since now the return statement should be 0.0 (a double) rather than 0 (int):
 
 ![image](https://github.com/Ruuudy1/cse15l-lab-reports/assets/130013367/76458eba-f6f6-4f9e-b732-c2e813654a9b)
 
