@@ -37,11 +37,11 @@ Here is the updated code:
 
 Also, you might want to edit your .sh file to put the actual output as well as the expected output onto a variable to make it simpler to make more tests in the future. This is also be causing an error:
 
-![image](https://github.com/Ruuudy1/cse15l-lab-reports/assets/130013367/bdd5d833-a9d5-421b-b872-8bb9132d3cd4)
+![image](https://github.com/Ruuudy1/cse15l-lab-reports/assets/130013367/76458eba-f6f6-4f9e-b732-c2e813654a9b)
 
 As you can see, I have updated the code, now when you run the command you previously ran:
 
-![image](https://github.com/Ruuudy1/cse15l-lab-reports/assets/130013367/9904346f-2560-40f9-8af1-67167caaf308)
+![image](https://github.com/Ruuudy1/cse15l-lab-reports/assets/130013367/b7335ee1-6c2b-45e5-9b6f-8ba9ad6eb9cc)
 
 You no longer pass the test when passing 0 and 1 as parameters. 
 
